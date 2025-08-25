@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  background: url('https://wallpapercave.com/wp/wp5733651.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Logo */
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #ff4444;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #ddd;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #28a745, #34d058);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(40, 167, 69, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(40, 167, 69, 1);
+}
+
+/* Button Animation */
+@keyframes pulse {
+  0% { box-shadow: 0 0 10px rgba(40, 167, 69, 0.6); }
+  50% { box-shadow: 0 0 25px rgba(40, 167, 69, 1); }
+  100% { box-shadow: 0 0 10px rgba(40, 167, 69, 0.6); }
+}
+
+/* Proof & Secure */
+.proof {
+  margin-top: 25px;
+  font-size: 0.95rem;
+  color: #ffcc00;
+}
+
+.secure {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
